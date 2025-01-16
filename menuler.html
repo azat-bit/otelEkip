@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Menüsü</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-b from-gray-200 to-white text-gray-800 overflow-x-hidden font-sans">
+    <header class="relative bg-center bg-cover h-[500px] text-white"
+        style="background-image: url('https://source.unsplash.com/1600x900/?restaurant');">
+        <nav class="absolute top-0 w-full bg-black bg-opacity-50 shadow-lg z-50">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <ul class="flex space-x-6 text-white">
+                    <li><a href="#home" class="hover:bg-gray-200 hover:text-black px-4 py-2 rounded-md transition">Anasayfa</a></li>
+                    <li><a href="#menu" class="hover:bg-gray-200 hover:text-black px-4 py-2 rounded-md transition">Menü</a></li>
+                    <li><a href="#about" class="hover:bg-gray-200 hover:text-black px-4 py-2 rounded-md transition">Hakkımızda</a></li>
+                    <li><a href="#contact" class="hover:bg-gray-200 hover:text-black px-4 py-2 rounded-md transition">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="absolute inset-0 flex items-center justify-center">
+            <img src="DALL·E 2025-01-12 02.17.00 - A beautifully arranged display of freshly baked croissants, pastries, and breads on a wooden table, with a cozy and elegant cafe background. The scene.webp" alt="Restoran Görseli"
+                class="w-full h-full object-cover rounded-lg opacity-50">
+
+            <div class="absolute inset-0 flex items-center justify-center">
+                <h1
+                    class="px-6 py-4 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent text-6xl font-bold font-dancing animate-fade-down opacity-100 drop-shadow-lg text-center">
+                    Pâtisserie BALLI
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="menu" class="container mx-auto mt-10 bg-white rounded-lg shadow-lg">
+        <h2 class="text-3xl font-extrabold text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 py-6 rounded-lg shadow-lg text-center relative uppercase tracking-wide">
+            Kahvaltı Menüsü
+            <span class="absolute inset-x-10 bottom-0 h-1 bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 rounded-full"></span>
+        </h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-full h-full">
+                    <img src="Kahvaltı-Tabağı-500x500.jpg" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Kahvaltı Tabağı</h3>
+                        <p class="text-xs text-gray-300 mt-1">Zengin Tabak İle Güzel Kahvaltı</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-full h-full">
+                    <img src="cirpilmis-yumurta-avokado-ve-kruvasan-86918c3b-9194-43cb-b225-d5c9bb48e9b3.jpg" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Krovasan Kahvaltısı</h3>
+                        <p class="text-xs text-gray-300 mt-1">Yumurta ve Avakado İle Harmanlanmış Krovasan.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-21 h-full">
+                    <img src="e36eb9d4-a01d-49d9-804a-d643bda5ae8a.jpg" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Serpme Kahvaltı</h3>
+                        <p class="text-xs text-gray-300 mt-1">Türkiyenin Her Lezzeti Mevcut.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="menu" class="container mx-auto mt-10 bg-white rounded-lg shadow-lg">
+        <h2 class="text-3xl font-extrabold text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 py-6 rounded-lg shadow-lg text-center relative uppercase tracking-wide">
+            Öğle  Yemeği Menüsü
+            <span class="absolute inset-x-10 bottom-0 h-1 bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 rounded-full"></span>
+        </h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-full h-full">
+                    <img src="zeytinyagli-lahana-sarmasi-8b17bb68-1727-474d-a5ad-47b1818b711f.jpg" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Lahana Sarması</h3>
+                        <p class="text-xs text-gray-300 mt-1">Lahana Sarması kıymalı.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-full h-full">
+                    <img src="zeytinyagli_sarma.webp" alt="Zetinyağlı/Sarması"></img>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Yaprak Sarması</h3>
+                        <p class="text-xs text-gray-300 mt-1">Egenin Lezzetli Yaprakları.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-21 h-full">
+                    <img src="sarimsakli-un-corbasi-resimli-yemek-tarifi(12).jpg" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Mercimek Çorbası</h3>
+                        <p class="text-xs text-gray-300 mt-1">Sıcak Mercimek.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="menu" class="container mx-auto mt-10 bg-white rounded-lg shadow-lg">
+
+        <h2 class="text-3xl font-extrabold text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 py-6 rounded-lg shadow-lg text-center relative uppercase tracking-wide">
+            Akşam Yemeği Menüsü
+            <span class="absolute inset-x-10 bottom-0 h-1 bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 rounded-full"></span>
+        </h2>
+        
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-full h-full">
+
+                    <img src="kiyma-kasarli.jpg" alt="kiymalipide"
+                        class="w-full h-full object-cover">
+
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Kıymalı Kaşarlı Pide</h3>
+                        <p class="text-xs text-gray-300 mt-1">Rizenin Tereyağı Odun Ateşinde Pişen Pidemiz.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-full h-full">
+                    <img src="postkebap1.jpg" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Adana Kebap</h3>
+                        <p class="text-xs text-gray-300 mt-1">Bol baharatlı ve lezzetli Adana.</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition aspect-square max-w-xs mx-auto">
+                <div class="relative w-21 h-full">
+                    <img src="kasarli1.png" alt="Mercimek Çorbası"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 text-white flex flex-col justify-end p-3">
+                        <h3 class="font-bold text-sm">Kaşarlı Köfte</h3>
+                        <p class="text-xs text-gray-300 mt-1">Bol baharatlı ve kaşarlı Odun Ateşinde Kaşarlı Köfte</p>
+                        <div class="flex justify-between items-center mt-2">
+                            <span class="text-yellow-400 font-semibold text-sm">120₺</span>
+                            <button
+                                class="bg-yellow-500 text-black px-3 py-1 rounded-md hover:bg-yellow-600 transition text-xs">Sipariş
+                                Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+
+    <footer class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white py-12 px-6 font-[sans-serif] tracking-wide">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div>
+            <h4 class="text-white font-bold text-lg mb-4">Pâtisserie BALLI</h4>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Türkiyenin En Taze Ve En Lezzetli Restorantı Hayata Dair Herşey.
+            </p>
+          </div>
+      
+          
+          <div>
+            <h4 class="text-white font-bold text-lg mb-4">Hızlı Erişim</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="text-gray-200 hover:text-white text-sm">Anasayfa</a></li>
+              <li><a href="#" class="text-gray-200 hover:text-white text-sm">Hakkımızda</a></li>
+              <li><a href="#" class="text-gray-200 hover:text-white text-sm">Hizmetler</a></li>
+              <li><a href="#" class="text-gray-200 hover:text-white text-sm">İletişim</a></li>
+            </ul>
+          </div>
+      
+
+          <div>
+            <h4 class="text-white font-bold text-lg mb-4">Bizi Takip Edin</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-200 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 49.652 49.652">
+                  <path d="M24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0zM31 25.7h-4.039v14.396h-5.985V25.7h-2.845v-5.088h2.845v-3.291c0-2.357 1.12-6.04 6.04-6.04l4.435.017v4.939h-3.219c-.524 0-1.269.262-1.269 1.386v2.99h4.56z" fill="#fff" />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-200 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 112.196 112.196">
+                  <circle cx="56.098" cy="56.097" r="56.098" fill="#007ab9" />
+                  <path fill="#fff" d="M89.616 60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118-3.705 0-5.906 2.491-6.878 4.903-.353.862-.444 2.059-.444 3.268v22.524h-13.41s.18-36.546 0-40.329h13.411v5.715c-.027.045-.065.089-.089.132h.089v-.132c1.782-2.742 4.96-6.662 12.085-6.662 8.822 0 15.436 5.764 15.436 18.149zm-54.96-36.642c-4.587 0-7.588 3.011-7.588 6.967 0 3.872 2.914 6.97 7.412 6.97h.087c4.677 0 7.585-3.098 7.585-6.97-.089-3.956-2.908-6.967-7.496-6.967zm-6.791 59.77H41.27v-40.33H27.865v40.33z" />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-200 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 152 152">
+                  <linearGradient id="a" x1="22.26" x2="129.74" y1="22.26" y2="129.74" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#fae100" />
+                    <stop offset=".15" stop-color="#fcb720" />
+                    <stop offset=".3" stop-color="#ff7950" />
+                    <stop offset=".5" stop-color="#ff1c74" />
+                    <stop offset="1" stop-color="#6c1cd1" />
+                  </linearGradient>
+                  <rect width="152" height="152" fill="url(#a)" rx="76" />
+                  <path fill="#fff" d="M94 36H58a22 22 0 0 0-22 22v36a22 22 0 0 0 22 22h36a22 22 0 0 0 22-22V58a22 22 0 0 0-22-22zm15 54.84A18.16 18.16 0 0 1 90.84 109H61.16A18.16 18.16 0 0 1 43 90.84V61.16A18.16 18.16 0 0 1 61.16 43h29.68A18.16 18.16 0 0 1 109 61.16z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="mt-8 border-t border-gray-300 pt-4 text-center">
+          <p class="text-gray-200 text-sm">© 2025 Tüm Hakları Saklıdır. Pâtisserie BALLI.</p>
+        </div>
+      </footer>
+      
+    
+
+
+    <style>
+        @keyframes fade-down {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .animate-fade-down {
+            animation: fade-down 2s ease-out forwards;
+        }
+
+
+        .font-dancing {
+            font-family: 'Dancing Script', cursive;
+        }
+
+
+        .drop-shadow-lg {
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</body>
+
+</html>
